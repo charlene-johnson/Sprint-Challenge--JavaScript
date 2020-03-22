@@ -1,5 +1,5 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
-class CuboidMaker {
+class CuboidsMaker {
     constructor (attributes) {
         this.length = attributes.length;
         this.width = attributes.width;
@@ -12,7 +12,7 @@ class CuboidMaker {
     return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
   }
 }
-const cuboid = new CuboidMaker({
+const cuboids = new CuboidsMaker({
     length: 4,
     width: 5,
     height: 5
