@@ -34,13 +34,19 @@ The difference between .forEach and .map is, .forEach does not return anything a
 
 2. What is the difference between a function and a method?
 
-A function
+A function is code called by it's name and has data, which are parameters which can return data and the data that is passed to a function is explicitly passed. A method is code that is also called by name but is associated with an object. Methods are implicitly passed when it is called.
 
 3. What is closure?
 
+Closures use scope, it allows access to an outer function's scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+The first rule of 'this' is window/global. The value of 'this' would be the window or console object. The second is Implicit bdining meaning whatever is preceding the dot, the object before the dot is 'this' such as this.name. The third is New Binding, and it refers to the speific instance of the object that is created and returned, this is often seen in constructor functions. The final one is Explcit Binding, it means when you use the call method or apply method, 'this' is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+Super is used to refer to the parent class, it allows access to the parent's properties and methods. It allows inheritance. 
 
 ## Project Set up
 
